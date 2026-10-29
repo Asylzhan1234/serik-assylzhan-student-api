@@ -1,0 +1,42 @@
+name: serik-assylzhan-student-api
+
+services:
+  db:
+    image: postgres:16
+    container_name: serik-assylzhan-postgres
+    environment:
+      POSTGRES_DB: studentdb
+      POSTGRES_USER: student
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+    volumes:
+      - serik_assylzhan_pgdata:/var/lib/postgresql/data
+    networks:
+      - serik-assylzhan-net
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U student -d studentdb"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  app:
+    image: serik-assylzhan-student-api:v1.0-serik-assylzhan
+    build: .
+    container_name: serik-assylzhan-app
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DB_URL: jdbc:postgresql://db:5432/studentdb
+      DB_USER: student
+      DB_PASSWORD: ${DB_PASSWORD}
+    ports:
+      - "8081:8080"
+    networks:
+      - serik-assylzhan-net
+
+volumes:
+  serik_assylzhan_pgdata:
+
+networks:
+  serik-assylzhan-net:
+    name: serik-assylzhan-net
