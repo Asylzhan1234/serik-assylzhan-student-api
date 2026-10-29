@@ -19,7 +19,7 @@ services:
       retries: 10
 
   app:
-    image: serik-assylzhan-student-api:v1.0-serik-assylzhan
+    image: serik-assylzhan-student-api:v1.1-serik-assylzhan
     build: .
     container_name: serik-assylzhan-app
     depends_on:
