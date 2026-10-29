@@ -24,6 +24,6 @@ class StudentRepositoryTest {
         repository.save(saved);
 
         Student found = repository.findById(saved.getId()).orElseThrow();
-        assertThat(found.getEmail()).isEqualTo("new.email@example.com");
+        assertThat(found.getEmail()).isEqualTo("WRONG@example.com");
     }
 }
