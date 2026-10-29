@@ -52,3 +52,12 @@ public class StudentController {
         repository.deleteById(id);
     }
 }
+
+    @PutMapping("/{id}")
+    public Student update(@PathVariable("id") Long id, @RequestBody Student updated) {
+        Student existing = repository.findById(id).orElseThrow(() -> notFound(id));
+        existing.setFullName(updated.getFullName());
+        existing.setEmail(updated.getEmail());
+        return repository.save(existing);
+    }
+}
