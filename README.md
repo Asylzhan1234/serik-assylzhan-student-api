@@ -1,0 +1,1 @@
+# Serik Assylzhan Student API

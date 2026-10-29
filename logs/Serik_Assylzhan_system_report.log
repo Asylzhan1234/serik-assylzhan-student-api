@@ -1,0 +1,70 @@
+==============================================
+Student full name : Serik Assylzhan
+Date and time     : 2026-10-29 21:12:04
+Current user      : assylzhanserik
+--- Operating system and kernel ---
+OS     : macOS 26.5
+Kernel : Darwin 25.5.0
+--- CPU ---
+Model  : Apple M4
+Cores  : 10
+--- Memory ---
+Total RAM : 16 GB
+Mach Virtual Memory Statistics: (page size of 16384 bytes)
+Pages free:                                     8676.
+Pages active:                                 302834.
+Pages inactive:                               301011.
+Pages speculative:                               859.
+--- Disk usage ---
+Filesystem                         Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s1s1                    228Gi    12Gi    66Gi    16%    459k  695M    0%   /
+devfs                             207Ki   207Ki     0Bi   100%     716     0  100%   /dev
+/dev/disk3s6                      228Gi   6.0Gi    66Gi     9%       6  695M    0%   /System/Volumes/VM
+/dev/disk3s2                      228Gi    10Gi    66Gi    14%    2.0k  695M    0%   /System/Volumes/Preboot
+/dev/disk3s4                      228Gi   1.8Mi    66Gi     1%      64  695M    0%   /System/Volumes/Update
+/dev/disk1s2                      500Mi   6.0Mi   482Mi     2%       1  4.9M    0%   /System/Volumes/xarts
+/dev/disk1s1                      500Mi   6.0Mi   482Mi     2%      33  4.9M    0%   /System/Volumes/iSCPreboot
+/dev/disk1s3                      500Mi   1.6Mi   482Mi     1%      95  4.9M    0%   /System/Volumes/Hardware
+/dev/disk3s5                      228Gi   132Gi    66Gi    67%    1.3M  695M    0%   /System/Volumes/Data
+map auto_home                       0Bi     0Bi     0Bi   100%       0     0     -   /System/Volumes/Data/home
+/dev/disk4s2                      2.3Gi   2.2Gi   171Mi    93%     276  4.3G    0%   /private/var/folders/w5/ywpytzyd5pl1042nlv80lh980000gn/T/com.docker.install/DockerDesktop-242831
+/Applications/Sajda.app/Wrapper   228Gi   124Gi    80Gi    61%    1.2M  835M    0%   /private/var/folders/w5/ywpytzyd5pl1042nlv80lh980000gn/X/78B7877E-65ED-5849-AAF3-00F88F1F3443
+/dev/disk5s1                      1.3Gi   987Mi   374Mi    73%     19k  4.3G    0%   /Volumes/Cursor Installer
+--- Available space on / ---
+Available: 66Gi (used 16%)
+
+==============================================
+Student full name : Serik Assylzhan
+Date and time     : 2026-10-29 21:12:24
+Current user      : assylzhanserik
+--- Operating system and kernel ---
+OS     : macOS 26.5
+Kernel : Darwin 25.5.0
+--- CPU ---
+Model  : Apple M4
+Cores  : 10
+--- Memory ---
+Total RAM : 16 GB
+Mach Virtual Memory Statistics: (page size of 16384 bytes)
+Pages free:                                    23551.
+Pages active:                                 286620.
+Pages inactive:                               300949.
+Pages speculative:                               984.
+--- Disk usage ---
+Filesystem                         Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s1s1                    228Gi    12Gi    66Gi    16%    459k  695M    0%   /
+devfs                             207Ki   207Ki     0Bi   100%     716     0  100%   /dev
+/dev/disk3s6                      228Gi   6.0Gi    66Gi     9%       6  695M    0%   /System/Volumes/VM
+/dev/disk3s2                      228Gi    10Gi    66Gi    14%    2.0k  695M    0%   /System/Volumes/Preboot
+/dev/disk3s4                      228Gi   1.8Mi    66Gi     1%      64  695M    0%   /System/Volumes/Update
+/dev/disk1s2                      500Mi   6.0Mi   482Mi     2%       1  4.9M    0%   /System/Volumes/xarts
+/dev/disk1s1                      500Mi   6.0Mi   482Mi     2%      33  4.9M    0%   /System/Volumes/iSCPreboot
+/dev/disk1s3                      500Mi   1.6Mi   482Mi     1%      95  4.9M    0%   /System/Volumes/Hardware
+/dev/disk3s5                      228Gi   132Gi    66Gi    67%    1.3M  695M    0%   /System/Volumes/Data
+map auto_home                       0Bi     0Bi     0Bi   100%       0     0     -   /System/Volumes/Data/home
+/dev/disk4s2                      2.3Gi   2.2Gi   171Mi    93%     276  4.3G    0%   /private/var/folders/w5/ywpytzyd5pl1042nlv80lh980000gn/T/com.docker.install/DockerDesktop-242831
+/Applications/Sajda.app/Wrapper   228Gi   124Gi    80Gi    61%    1.2M  835M    0%   /private/var/folders/w5/ywpytzyd5pl1042nlv80lh980000gn/X/78B7877E-65ED-5849-AAF3-00F88F1F3443
+/dev/disk5s1                      1.3Gi   987Mi   374Mi    73%     19k  4.3G    0%   /Volumes/Cursor Installer
+--- Available space on / ---
+Available: 66Gi (used 16%)
+
